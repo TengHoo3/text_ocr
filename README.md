@@ -21,9 +21,9 @@ docker-compose down
 ```
 
 ### How to use
-- POST Request (either through postman or terminal using curl)
+- POST Request (either through postman or terminal using curl) - http://0.0.0.0:8000/run
 - Input into Request Body an image file
-- Returns texts and cooridn
+- Returns texts and coordinates
 
 ### Input
 - Image (ideally JPG/PNG format)
