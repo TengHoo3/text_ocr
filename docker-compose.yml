@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  ocr_app:
+    image: text_ocr:1.0
+    restart: always
+    build:
+      context: .
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/ocr
+    environment:
+      - PYTHONBUFFERED=1
+    container_name: ocr_container
